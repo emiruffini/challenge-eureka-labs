@@ -136,7 +136,7 @@ router.route("/logear-usuario").post(usersController.logUser);
  *          required:
  *            - nombreVengador
  *          properties:
- *            vengador:
+ *            avenger:
  *              type: string
  *              description: Nombre vengador a agregar o quitar
  *    responses:

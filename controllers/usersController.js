@@ -132,7 +132,7 @@ const usersController = {
 
     const user = await User.findOne({ username });
 
-    const avenger = req.body.vengador.toLowerCase();
+    const avenger = req.body.avenger.toLowerCase();
 
     if (user) {
       if (user.likes.find((like) => like.avenger.toLowerCase() === avenger)) {
